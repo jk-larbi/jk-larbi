@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none"><defs><linearGradient id="space" x2="1200" y2="300"><stop stop-color="#080F1B"/><stop offset=".58" stop-color="#101C2A"/><stop offset="1" stop-color="#171F2A"/></linearGradient><radialGradient id="sun"><stop stop-color="#FFF2D2"/><stop offset=".35" stop-color="#E5C58E"/><stop offset="1" stop-color="#9B7650"/></radialGradient><linearGradient id="ring"><stop stop-color="#7894A7" stop-opacity=".05"/><stop offset=".5" stop-color="#B9C9D2" stop-opacity=".58"/><stop offset="1" stop-color="#7894A7" stop-opacity=".05"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="14"/></filter></defs><rect width="1200" height="300" rx="16" fill="url(#space)"/><g fill="#D7E1E6"><circle cx="62" cy="42" r="1.2"/><circle cx="180" cy="236" r="1"/><circle cx="305" cy="35" r="1.3"/><circle cx="512" cy="258" r="1"/><circle cx="708" cy="38" r="1.1"/><circle cx="1142" cy="54" r="1.2"/><circle cx="1100" cy="255" r="1"/><circle cx="815" cy="255" r="1.1"/></g><g transform="translate(565 150)"><circle r="54" fill="#D9B77F" opacity=".12" filter="url(#soft)"/><circle r="29" fill="url(#sun)"/><path d="M-22 -9C-7 -34 20 -30 28 -5C10 -17 -8 -14 -22 2Z" fill="#FFF8E7" opacity=".55"/><ellipse rx="182" ry="53" stroke="url(#ring)" stroke-width="1.4" transform="rotate(-13)"/><ellipse rx="246" ry="77" stroke="#A8BDCA" stroke-opacity=".22" transform="rotate(18)"/><ellipse rx="310" ry="98" stroke="#A8BDCA" stroke-opacity=".12" transform="rotate(-7)" stroke-dasharray="2 8"/><circle r="7" fill="#B9C9D2" stroke="#E8F0F2" stroke-width="1.3"><animateMotion dur="14s" repeatCount="indefinite" path="M-182 0A182 53 -13 1 0 182 0A182 53 -13 1 0 -182 0"/></circle><circle r="5" fill="#CBA66B"><animateMotion dur="22s" repeatCount="indefinite" path="M-246 0A246 77 18 1 0 246 0A246 77 18 1 0 -246 0"/></circle></g><g transform="translate(930 74)"><text fill="#CBA66B" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.6">EXOPLANET TRANSIT</text><text y="24" fill="#E7EDF0" font-family="Arial,sans-serif" font-size="18" font-weight="600">A world crossing a star</text><path d="M0 76H220M0 122H220" stroke="#8299A8" stroke-opacity=".3"/><path d="M0 76C35 76 56 76 78 77C91 78 97 111 110 114C123 111 129 78 143 77C166 76 188 76 220 76" stroke="#D8C093" stroke-width="2" fill="none"/><circle cx="110" cy="114" r="3" fill="#D8C093"/><text y="148" fill="#91A3AF" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.2">LIGHT CURVE · RELATIVE BRIGHTNESS</text><text y="190" fill="#91A3AF" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.2">OBSERVE / MEASURE / DISCOVER</text></g><g transform="translate(54 82)"><text fill="#CBA66B" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.8">THE NIGHT SKY</text><text y="27" fill="#E7EDF0" font-family="Arial,sans-serif" font-size="17" font-weight="600">More than distant light.</text><text y="53" fill="#9EAFBA" font-family="Arial,sans-serif" font-size="11">A universe of patterns,</text><text y="71" fill="#9EAFBA" font-family="Arial,sans-serif" font-size="11">orbits and unanswered questions.</text><path d="M0 100H170" stroke="#CBA66B" stroke-opacity=".55"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320"><stop stop-color="#060C15"/><stop offset=".55" stop-color="#0C1722"/><stop offset="1" stop-color="#121D27"/></linearGradient>
+ <radialGradient id="star"><stop stop-color="#FFF5DD"/><stop offset=".24" stop-color="#E8D3A7"/><stop offset=".7" stop-color="#A98A5E"/><stop offset="1" stop-color="#594A3A"/></radialGradient>
+ <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9E0DC"/><stop offset=".3" stop-color="#879AA2"/><stop offset=".72" stop-color="#3A5363"/><stop offset="1" stop-color="#172B3A"/></linearGradient>
+ <linearGradient id="fine"><stop stop-color="#AABCC6" stop-opacity="0"/><stop offset=".5" stop-color="#B9C9D1" stop-opacity=".65"/><stop offset="1" stop-color="#AABCC6" stop-opacity="0"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="15"/></filter>
+ <clipPath id="disc"><circle cx="590" cy="151" r="25"/></clipPath>
+</defs>
+<rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+<g stroke="#AABCC6" stroke-opacity=".12"><path d="M40 38H1160M40 282H1160"/><path d="M40 38V282M1160 38V282"/></g>
+<g fill="#DCE4E6"><circle cx="95" cy="74" r="1"/><circle cx="246" cy="248" r="1.2"/><circle cx="400" cy="52" r="1"/><circle cx="735" cy="40" r="1.2"/><circle cx="812" cy="257" r="1"/><circle cx="1080" cy="54" r="1.2"/><circle cx="1132" cy="240" r="1"/><circle cx="680" cy="280" r=".9"/></g>
+<g transform="translate(590 151)">
+ <circle r="72" fill="#D8C49E" opacity=".12" filter="url(#glow)"/>
+ <circle r="25" fill="url(#star)"/>
+ <path d="M-17 -9C-5 -30 17 -23 22 -5C8 -15 -7 -13 -17 0Z" fill="#FFF9EA" opacity=".6"/>
+ <ellipse rx="170" ry="52" transform="rotate(-14)" stroke="url(#fine)" stroke-width="1.3"/>
+ <ellipse rx="236" ry="82" transform="rotate(18)" stroke="#AABCC6" stroke-opacity=".22"/>
+ <ellipse rx="302" ry="104" transform="rotate(-7)" stroke="#AABCC6" stroke-opacity=".12" stroke-dasharray="2 8"/>
+ <circle r="6" fill="url(#planet)"><animateMotion dur="17s" repeatCount="indefinite" path="M-170 0A170 52 -14 1 0 170 0A170 52 -14 1 0 -170 0"/></circle>
+ <circle r="4" fill="#C8AB7A"><animateMotion dur="25s" repeatCount="indefinite" path="M-236 0A236 82 18 1 0 236 0A236 82 18 1 0 -236 0"/></circle>
+</g>
+<g font-family="Arial,sans-serif">
+ <text x="70" y="91" fill="#B89A69" font-size="10" letter-spacing="3">OBSERVATIONAL ASTRONOMY</text>
+ <text x="70" y="121" fill="#EAE9E3" font-family="Georgia,serif" font-size="23">Reading the light</text>
+ <text x="70" y="149" fill="#AAB8BF" font-size="11">A distant world reveals itself</text>
+ <text x="70" y="166" fill="#AAB8BF" font-size="11">through a small change in starlight.</text>
+ <path d="M70 190H250" stroke="#B89A69" stroke-opacity=".65"/>
+ <text x="70" y="214" fill="#718591" font-size="9" letter-spacing="1.5">EXOPLANET TRANSIT METHOD</text>
+ <text x="880" y="76" fill="#B89A69" font-size="10" letter-spacing="2.4">TRANSIT PHOTOMETRY / CONCEPT</text>
+ <text x="880" y="101" fill="#EAE9E3" font-family="Georgia,serif" font-size="18">Stellar light curve</text>
+ <path d="M880 132H1135M880 207H1135" stroke="#8799A4" stroke-opacity=".3"/>
+ <path d="M880 132C916 132 934 132 957 134C973 136 978 190 1005 194C1031 190 1038 136 1055 134C1080 132 1100 132 1135 132" stroke="#D5BD91" stroke-width="1.7" fill="none"/>
+ <circle cx="1005" cy="194" r="2.7" fill="#E9D6AF"/>
+ <text x="880" y="229" fill="#82949F" font-size="9" letter-spacing="1.2">RELATIVE FLUX / TIME →</text>
+ <text x="1135" y="270" fill="#667984" font-size="8" text-anchor="end" letter-spacing="1.5">SCHEMATIC — NOT OBSERVATIONAL DATA</text>
+</g>
+</svg>
