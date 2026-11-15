@@ -5,7 +5,7 @@
 ### Computer Science Student · UI/UX Designer · Developer
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=650&lines=Building+useful+digital+experiences;Designing+clean%2C+human-centred+interfaces;Exploring+software+and+cybersecurity;Learning+by+building+real+projects" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=650&lines=Building+useful+digital+experiences;Leading+UI+design+for+ScheDORA;Designing+clean%2C+human-centred+interfaces;Exploring+software+and+cybersecurity;Learning+by+building+real+projects" alt="Animated introduction" />
 </a>
 
 <p>
