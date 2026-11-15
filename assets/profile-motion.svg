@@ -1,32 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none">
 <defs>
- <linearGradient id="night" x1="0" y1="0" x2="1200" y2="340"><stop stop-color="#050A12"/><stop offset=".58" stop-color="#0A1420"/><stop offset="1" stop-color="#111B25"/></linearGradient>
- <radialGradient id="planet"><stop stop-color="#E9E5D9"/><stop offset=".28" stop-color="#AAB7BC"/><stop offset=".7" stop-color="#536C7C"/><stop offset="1" stop-color="#1B2C3A"/></radialGradient>
- <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E9D6AF"/><stop offset=".5" stop-color="#B89A69"/><stop offset="1" stop-color="#766044"/></linearGradient>
- <linearGradient id="orbit"><stop stop-color="#AABCC6" stop-opacity="0"/><stop offset=".5" stop-color="#B7C8D1" stop-opacity=".6"/><stop offset="1" stop-color="#AABCC6" stop-opacity="0"/></linearGradient>
- <filter id="aura"><feGaussianBlur stdDeviation="26"/></filter>
- <clipPath id="sphere"><circle cx="938" cy="164" r="67"/></clipPath>
+ <linearGradient id="sky" x1="80" y1="0" x2="1080" y2="380"><stop stop-color="#050A11"/><stop offset=".48" stop-color="#0A1420"/><stop offset="1" stop-color="#18232C"/></linearGradient>
+ <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="matrix(430 90 -160 760 850 120)" gradientUnits="userSpaceOnUse"><stop stop-color="#8296A2" stop-opacity=".25"/><stop offset="1" stop-color="#8296A2" stop-opacity="0"/></radialGradient>
+ <radialGradient id="world"><stop stop-color="#E6E2D8"/><stop offset=".28" stop-color="#B8C4C3"/><stop offset=".68" stop-color="#647987"/><stop offset="1" stop-color="#1C2C39"/></radialGradient>
+ <linearGradient id="gold"><stop stop-color="#E7D5B1"/><stop offset=".5" stop-color="#B89A69"/><stop offset="1" stop-color="#786044"/></linearGradient>
+ <linearGradient id="horizon" x1="0" y1="280" x2="0" y2="380"><stop stop-color="#26333A"/><stop offset="1" stop-color="#090F15"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+ <clipPath id="planetClip"><circle cx="914" cy="143" r="74"/></clipPath>
 </defs>
-<rect width="1200" height="340" rx="18" fill="url(#night)"/>
-<path d="M0 286H1200" stroke="#B89A69" stroke-opacity=".22"/>
-<path d="M56 38H1144M56 302H1144" stroke="#9DAEB8" stroke-opacity=".12"/>
-<g stroke="#B7C8D1" stroke-opacity=".12"><path d="M780 45V295M938 45V295M1096 45V295"/><path d="M720 164H1155"/></g>
-<g fill="#E4E9E9"><circle cx="746" cy="65" r="1.1"/><circle cx="818" cy="260" r="1.2"/><circle cx="1078" cy="56" r="1.3"/><circle cx="1136" cy="232" r="1"/><circle cx="696" cy="175" r="1"/><circle cx="1022" cy="284" r="1.1"/><circle cx="862" cy="37" r=".9"/></g>
-<circle cx="938" cy="164" r="115" fill="#7E9BAA" opacity=".09" filter="url(#aura)"/>
-<circle cx="938" cy="164" r="67" fill="url(#planet)"/>
-<g clip-path="url(#sphere)" opacity=".38" stroke="#DCE2DF"><path d="M861 130C902 109 967 111 1014 133M858 155C903 139 970 142 1018 163M861 190C905 176 968 178 1014 199M876 218C918 205 968 208 1000 221"/></g>
-<ellipse cx="938" cy="164" rx="177" ry="48" transform="rotate(-17 938 164)" stroke="url(#orbit)" stroke-width="1.5"/>
-<ellipse cx="938" cy="164" rx="235" ry="78" transform="rotate(24 938 164)" stroke="#B7C8D1" stroke-opacity=".18"/>
-<path d="M771 112C818 65 896 42 969 48" stroke="#B89A69" stroke-opacity=".7"/>
-<circle cx="1090" cy="100" r="5" fill="#D6C6A4"><animateMotion dur="24s" repeatCount="indefinite" path="M0 0C-90 -38 -170 -14 -225 52C-260 100 -185 150 -110 120C-35 92 8 34 0 0"/></animateMotion></circle>
+<rect width="1200" height="380" rx="18" fill="url(#sky)"/>
+<rect width="1200" height="380" rx="18" fill="url(#haze)"/>
+<g opacity=".8" fill="#E6E8E5">
+ <circle cx="652" cy="45" r="1.1"/><circle cx="708" cy="90" r=".8"/><circle cx="772" cy="36" r="1.2"/><circle cx="835" cy="72" r=".8"/><circle cx="1007" cy="38" r="1"/><circle cx="1094" cy="90" r="1.2"/><circle cx="1150" cy="49" r=".8"/><circle cx="682" cy="190" r=".8"/><circle cx="790" cy="224" r="1"/><circle cx="1040" cy="205" r=".9"/><circle cx="1120" cy="180" r="1.1"/><circle cx="586" cy="125" r=".7"/><circle cx="748" cy="150" r=".8"/>
+</g>
+<g stroke="#B8C8CE" stroke-opacity=".12"><path d="M620 30V286M914 25V286M1150 30V286"/><path d="M600 143H1170"/></g>
+<circle cx="914" cy="143" r="115" fill="#A5B6BD" opacity=".13" filter="url(#blur)"/>
+<circle cx="914" cy="143" r="74" fill="url(#world)"/>
+<g clip-path="url(#planetClip)" stroke="#E0E5E1" stroke-opacity=".28"><path d="M832 111C878 87 951 91 995 117"/><path d="M832 139C881 118 954 122 998 146"/><path d="M841 175C884 157 952 161 991 183"/><path d="M861 203C901 189 949 192 974 207"/></g>
+<ellipse cx="914" cy="143" rx="174" ry="53" transform="rotate(-18 914 143)" stroke="#B9C8CD" stroke-opacity=".38"/>
+<ellipse cx="914" cy="143" rx="235" ry="82" transform="rotate(22 914 143)" stroke="#B9C8CD" stroke-opacity=".18" stroke-dasharray="3 7"/>
+<circle cx="1086" cy="89" r="4" fill="#E2D0A9"><animateMotion dur="28s" repeatCount="indefinite" path="M0 0C-95 -35 -188 0 -230 70C-263 126 -190 166 -112 135C-38 105 5 36 0 0"/></animateMotion></circle>
+<path d="M0 294C186 276 352 295 510 285C682 275 814 297 1004 280C1088 273 1158 281 1200 274V380H0Z" fill="url(#horizon)"/>
+<path d="M0 294C186 276 352 295 510 285C682 275 814 297 1004 280C1088 273 1158 281 1200 274" stroke="#9BAAB0" stroke-opacity=".28"/>
+<!-- observatory silhouette -->
+<g fill="#080E14" stroke="#75858B" stroke-opacity=".42" stroke-width="1.2">
+ <path d="M90 305V265C90 238 111 216 138 216C165 216 186 238 186 265V305Z"/>
+ <path d="M82 265C82 230 107 204 138 204C169 204 194 230 194 265H82Z"/>
+ <path d="M112 216L138 183L164 216Z"/>
+ <path d="M127 202L138 189L149 202"/>
+ <path d="M105 305V274M171 305V274"/>
+ <path d="M75 306H201"/>
+ <path d="M138 183V160" stroke="#B89A69" stroke-opacity=".7"/>
+</g>
+<path d="M138 160L138 145" stroke="#D6C29A" stroke-opacity=".8"/>
+<circle cx="138" cy="144" r="2.5" fill="#E7D5B1"/>
 <g font-family="Arial,sans-serif">
- <text x="72" y="72" fill="#B89A69" font-size="10" letter-spacing="3.5">PERSONAL PROFILE / 2026</text>
- <text x="68" y="151" fill="#F0EEE8" font-family="Georgia,serif" font-size="48" letter-spacing=".2">Joshua Kofi Larbi</text>
- <text x="72" y="188" fill="#B9C4C9" font-size="13" letter-spacing="2.4">DESIGNER · DEVELOPER · COSMIC OBSERVER</text>
- <path d="M72 218H394" stroke="#B89A69" stroke-opacity=".75"/>
- <circle cx="398" cy="218" r="2.5" fill="#E9D6AF"/>
- <text x="72" y="250" fill="#8799A4" font-size="10" letter-spacing="2">BUILD WITH INTENTION. LOOK BEYOND.</text>
- <text x="72" y="318" fill="#667984" font-size="8" letter-spacing="2">UCC / GHANA</text>
- <text x="1095" y="318" fill="#667984" font-size="8" letter-spacing="2" text-anchor="end">05°06′N 01°15′W</text>
+ <text x="72" y="62" fill="#C3A77A" font-size="10" letter-spacing="3.5">FIELD NOTES / OBSERVATIONAL ASTRONOMY</text>
+ <text x="68" y="137" fill="#F0EEE8" font-family="Georgia,serif" font-size="48">Joshua Kofi Larbi</text>
+ <text x="72" y="174" fill="#B9C4C9" font-size="12" letter-spacing="2.5">DESIGNER · DEVELOPER · COSMIC OBSERVER</text>
+ <path d="M72 204H404" stroke="url(#gold)" stroke-width="1"/>
+ <circle cx="408" cy="204" r="2.5" fill="#E9D6AF"/>
+ <text x="72" y="232" fill="#9EADB3" font-size="10" letter-spacing="1.9">BUILD WITH INTENTION. LOOK BEYOND.</text>
+ <text x="72" y="347" fill="#87969C" font-size="8" letter-spacing="2">UCC / GHANA</text>
+ <text x="1128" y="347" fill="#87969C" font-size="8" letter-spacing="2" text-anchor="end">OBSERVATORY · NIGHT SKY / 05°06′N 01°15′W</text>
+ <text x="1128" y="365" fill="#64757D" font-size="7" letter-spacing="1.8" text-anchor="end">ILLUSTRATIVE SCENE · NOT A LIVE SKY IMAGE</text>
 </g>
 </svg>
