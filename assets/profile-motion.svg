@@ -1,43 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="270" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#111110"/><stop offset=".58" stop-color="#201B16"/><stop offset="1" stop-color="#342313"/>
-  </linearGradient>
-  <linearGradient id="gold" x1="180" y1="40" x2="1030" y2="230" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FDE68A"/><stop offset=".48" stop-color="#D6A24A"/><stop offset="1" stop-color="#8D5A22"/>
-  </linearGradient>
-  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#FDE68A" stop-opacity="0"/><stop offset=".5" stop-color="#FDE68A" stop-opacity=".55"/><stop offset="1" stop-color="#FDE68A" stop-opacity="0"/>
-  </linearGradient>
-  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="clip"><rect width="1200" height="270" rx="18"/></clipPath>
+ <linearGradient id="space" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#080D18"/><stop offset=".55" stop-color="#101827"/><stop offset="1" stop-color="#241D18"/></linearGradient>
+ <radialGradient id="nebula"><stop stop-color="#9A6B3B" stop-opacity=".28"/><stop offset="1" stop-color="#9A6B3B" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8E3A0"/><stop offset=".5" stop-color="#D6A24A"/><stop offset="1" stop-color="#93652F"/></linearGradient>
+ <linearGradient id="beam"><stop stop-color="#F8E3A0" stop-opacity="0"/><stop offset=".5" stop-color="#F8E3A0" stop-opacity=".65"/><stop offset="1" stop-color="#F8E3A0" stop-opacity="0"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+ <filter id="shine"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<g clip-path="url(#clip)">
-  <rect width="1200" height="270" fill="url(#bg)"/>
-  <path d="M0 210 C210 150 350 300 580 205 S940 90 1200 160" stroke="#D6A24A" stroke-opacity=".13" stroke-width="1"/>
-  <path d="M0 225 C250 165 390 285 620 220 S980 120 1200 185" stroke="#FDE68A" stroke-opacity=".08" stroke-width="1"/>
-  <circle cx="1000" cy="105" r="94" stroke="#D6A24A" stroke-opacity=".15"/>
-  <circle cx="1000" cy="105" r="68" stroke="#D6A24A" stroke-opacity=".24" stroke-dasharray="2 9">
-    <animateTransform attributeName="transform" type="rotate" from="0 1000 105" to="360 1000 105" dur="48s" repeatCount="indefinite"/>
-  </circle>
-  <ellipse cx="1000" cy="105" rx="115" ry="39" transform="rotate(-28 1000 105)" stroke="#E7B65D" stroke-opacity=".35"/>
-  <circle cx="1101" cy="51" r="4" fill="#FDE68A" filter="url(#glow)">
-    <animate attributeName="opacity" values=".35;1;.35" dur="3.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="900" cy="145" r="2.5" fill="#FDE68A"><animate attributeName="opacity" values=".2;.9;.2" dur="4.6s" repeatCount="indefinite"/></circle>
-  <circle cx="1065" cy="175" r="2" fill="#D6A24A"><animate attributeName="opacity" values=".25;.8;.25" dur="5.2s" repeatCount="indefinite"/></circle>
-  <g opacity=".5">
-    <path d="M0 32H1200" stroke="#E7B65D" stroke-opacity=".12"/>
-    <path d="M0 238H1200" stroke="#E7B65D" stroke-opacity=".12"/>
-  </g>
-  <rect x="-260" y="0" width="180" height="270" fill="url(#sweep)" opacity=".45" transform="skewX(-18)">
-    <animate attributeName="x" from="-300" to="1450" dur="11s" repeatCount="indefinite"/>
-  </rect>
-  <text x="82" y="79" fill="#D6A24A" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">DESIGN  /  ENGINEERING  /  CURIOSITY</text>
-  <text x="78" y="145" fill="#FAFAF9" font-family="Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="1">JOSHUA KOFI LARBI</text>
-  <text x="82" y="180" fill="#D6D3D1" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">CREATIVE THINKER  ·  TECHNOLOGY BUILDER</text>
-  <path d="M82 207H410" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="414" cy="207" r="3" fill="#FDE68A" filter="url(#glow)"/>
-  <text x="82" y="239" fill="#A8A29E" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">BUILD WITH INTENTION.</text>
+<rect width="1200" height="300" rx="18" fill="url(#space)"/>
+<ellipse cx="965" cy="150" rx="320" ry="230" fill="url(#nebula)" filter="url(#soft)"/>
+<g stroke="#D6A24A" stroke-opacity=".2" fill="none">
+ <ellipse cx="960" cy="148" rx="218" ry="74" transform="rotate(-23 960 148)"/>
+ <ellipse cx="960" cy="148" rx="165" ry="57" transform="rotate(27 960 148)"/>
+ <circle cx="960" cy="148" r="106" stroke-dasharray="1 8"/>
 </g>
+<g fill="#E9D9B5">
+ <circle cx="760" cy="54" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="3.7s" repeatCount="indefinite"/></circle>
+ <circle cx="1120" cy="76" r="1.3"><animate attributeName="opacity" values=".15;.9;.15" dur="4.4s" repeatCount="indefinite"/></circle>
+ <circle cx="1080" cy="235" r="1.6"><animate attributeName="opacity" values=".25;1;.25" dur="5s" repeatCount="indefinite"/></circle>
+ <circle cx="850" cy="250" r="1.2"><animate attributeName="opacity" values=".2;.8;.2" dur="3.2s" repeatCount="indefinite"/></circle>
+ <circle cx="1160" cy="170" r="1.1"/>
+ <circle cx="700" cy="175" r="1.2"/>
+ <circle cx="1015" cy="32" r="1.2"/>
+</g>
+<circle cx="960" cy="148" r="49" fill="#C58B4C" opacity=".12" filter="url(#soft)"/>
+<circle cx="960" cy="148" r="35" fill="#C58B4C" opacity=".15"/>
+<circle cx="960" cy="148" r="27" fill="url(#gold)"/>
+<path d="M939 133C950 119 974 119 985 136C974 128 951 128 939 143Z" fill="#FFF1C4" opacity=".55"/>
+<circle cx="1085" cy="96" r="8" fill="#B9A6A0" stroke="#F1D7A3" stroke-opacity=".7">
+ <animateMotion dur="18s" repeatCount="indefinite" path="M0 0 C-60 -40 -150 -30 -220 30 C-260 70 -220 130 -130 125 C-45 120 10 55 0 0"/>
+</circle>
+<circle cx="1085" cy="96" r="16" stroke="#D6A24A" stroke-opacity=".3"/>
+<path d="M0 262H1200" stroke="#D6A24A" stroke-opacity=".2"/>
+<rect x="-230" y="0" width="145" height="300" fill="url(#beam)" opacity=".35" transform="skewX(-20)"><animate attributeName="x" from="-300" to="1450" dur="13s" repeatCount="indefinite"/></rect>
+<text x="76" y="72" fill="#D6A24A" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">DESIGN  /  ENGINEERING  /  THE COSMOS</text>
+<text x="72" y="145" fill="#F7F4ED" font-family="Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="1">JOSHUA KOFI LARBI</text>
+<text x="76" y="180" fill="#C7C3BC" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">CREATIVE THINKER  ·  TECHNOLOGY BUILDER</text>
+<path d="M76 210H415" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+<circle cx="420" cy="210" r="3" fill="#F8E3A0" filter="url(#shine)"/>
+<text x="76" y="245" fill="#A7A6A3" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">CURIOUS ABOUT WHAT LIES BEYOND.</text>
 </svg>
