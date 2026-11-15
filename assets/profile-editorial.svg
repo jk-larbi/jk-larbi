@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Joshua Kofi Larbi — design, code, and curiosity</title>
+<desc id="desc">A restrained editorial profile banner with a graphite background, fine grid, cobalt geometry and subtle animated linework.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111820"/><stop offset="1" stop-color="#202a35"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d9cff" stop-opacity=".05"/><stop offset=".55" stop-color="#78a6ff" stop-opacity=".8"/><stop offset="1" stop-color="#b9d0ff" stop-opacity=".08"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#dce7f5" stroke-opacity=".055" stroke-width="1"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="390" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="390" rx="18" fill="url(#grid)"/>
+<path d="M720 0V390M760 0V390M800 0V390M840 0V390M880 0V390M920 0V390M960 0V390M1000 0V390M1040 0V390M1080 0V390M1120 0V390" stroke="#dce7f5" stroke-opacity=".035"/>
+<g fill="none" stroke="url(#line)" stroke-width="1.4">
+  <path d="M730 310L890 150L1035 250L1170 115"/>
+  <path d="M730 350L890 190L1035 290L1170 155" opacity=".55"/>
+  <path d="M825 390L985 230L1130 330" opacity=".45"/>
+</g>
+<g fill="none" stroke="#8fb3ff" stroke-opacity=".55">
+  <circle cx="1010" cy="178" r="86" stroke-dasharray="2 9"/>
+  <circle cx="1010" cy="178" r="56" stroke-opacity=".25"/>
+  <path d="M924 178H1096M1010 92V264" stroke-opacity=".22"/>
+</g>
+<circle cx="1010" cy="178" r="5" fill="#a9c6ff" filter="url(#glow)"/>
+<circle cx="1090" cy="139" r="3" fill="#dce8ff"><animate attributeName="opacity" values=".25;1;.25" dur="3.8s" repeatCount="indefinite"/></circle>
+<path d="M730 310L890 150L1035 250L1170 115" stroke="#a8c5ff" stroke-width="1.5" stroke-dasharray="12 180" fill="none"><animate attributeName="stroke-dashoffset" values="0;-384" dur="12s" repeatCount="indefinite"/></path>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="72" y="62" fill="#9aacc0" font-size="12" letter-spacing="3.4">PERSONAL PROFILE / GHANA</text>
+  <path d="M72 83H1128" stroke="#dce7f5" stroke-opacity=".16"/>
+  <text x="70" y="178" fill="#f4f6f8" font-size="58" font-weight="700" letter-spacing="-2">JOSHUA KOFI</text>
+  <text x="70" y="244" fill="#f4f6f8" font-size="58" font-weight="700" letter-spacing="-2">LARBI<tspan fill="#82aaff">.</tspan></text>
+  <text x="74" y="292" fill="#bdc8d4" font-size="15" letter-spacing="2.2">DESIGNER  /  DEVELOPER  /  COMPUTER SCIENCE</text>
+  <text x="74" y="348" fill="#8494a6" font-size="11" letter-spacing="2.5">BUILD WITH INTENTION. DESIGN FOR PEOPLE.</text>
+  <text x="1127" y="348" text-anchor="end" fill="#8494a6" font-size="11" letter-spacing="2">01 — 07</text>
+</g>
+</svg>
