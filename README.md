@@ -69,6 +69,8 @@ Away from the screen, I'm drawn to astronomy — especially exoplanets, orbital 
 | **[FNI CELLS CONNECT](https://github.com/jk-larbi/FNI-Cells-Connect)** | A reporting and coordination portal for cell leaders, tutors and administrators. |
 | **[FNI WEB PROTOTYPE](https://github.com/jk-larbi/FNI-web-prototype)** | An early web experience exploring the FNI project's digital presence and interface direction. |
 | **[BENEDICTA PORTFOLIO](https://github.com/jk-larbi/benedicta-portfolio)** | A portfolio website focused on presenting work and personal identity through a clean web experience. |
+| **[CHRISTIAN BOOKS UI DESIGN](https://github.com/jk-larbi/ui-design-of-a-Christian-online-book-store)** | A Christian online bookstore interface designed in Adobe XD, with a static UI concept and visual preview. |
+| **[STUDENT HOSPITAL APP — CAREPULSE](https://github.com/jk-larbi/Student-hospital-app)** | A student-focused health companion for appointments, medical records, medication schedules, emergency SOS and wellness checks. |
 
 ---
 
