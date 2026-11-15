@@ -32,11 +32,26 @@ I enjoy working across design and development — turning ideas into clear user 
 
 ## Featured projects
 
+These are projects I own or maintain.
+
 | Project | What it is |
 | --- | --- |
 | [Bible Arena 2.0](https://github.com/jk-larbi/Bible-Arena-2.0) | A Bible-based games platform focused on scripture learning, challenges and interactive play. |
+| [Bible Arena](https://github.com/jk-larbi/bible-arena) | An interactive Bible learning and games project with multiplayer and scripture-based activities. |
 | [FNI App 2.0](https://github.com/jk-larbi/FNI-APP-2.0) | A mobile-first community and ministry app concept for connecting members and supporting ministry activities. |
 | [FNI Cells Connect](https://github.com/jk-larbi/FNI-Cells-Connect) | A reporting and coordination portal designed for cell leaders, tutors and administrators. |
+| [FNI Web Prototype](https://github.com/jk-larbi/FNI-web-prototype) | An early web experience for the FNI project. |
+| [Benedicta Portfolio](https://github.com/jk-larbi/benedicta-portfolio) | A personal portfolio website project. |
+
+## Team contributions
+
+I also contribute to collaborative projects, taking responsibility for specific parts of the product rather than claiming ownership of the entire repository.
+
+| Project | My role / contribution |
+| --- | --- |
+| [ScheDORA](https://github.com/natt-pb/ScheDORA) | **UI Lead / UI Designer** — led the UI work, contributing to the visual identity and JavaFX interface, including dashboard, login, navigation, timetable, booking and administration screens. |
+| [Cosmic Frontier](https://github.com/NeonTechno/Cosmic-Frontier) | **UI / Front-end contributor** — contributed mission-control interface refinement, typography and branding updates, browser icon cleanup, and the SPHEREx editorial hero. [View my merged contributions](https://github.com/NeonTechno/Cosmic-Frontier/pulls?q=is%3Apr+author%3Ajk-larbi). |
+| [Compiler Group 22](https://github.com/Dandyloo/COMPILER_GROUP_TWENTY_TWO) | Contributed to the arithmetic expression parser. [View merged PR #23](https://github.com/Dandyloo/COMPILER_GROUP_TWENTY_TWO/pull/23). |
 
 ## Skills & tools
 
