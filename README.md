@@ -169,13 +169,13 @@ I’m fascinated by observational astronomy: how we study stars, map distant wor
 
 <img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/astronomy-observatory.svg" alt="Animated orbital system and exoplanet transit light curve" />
 
-<sub>ORBITAL MOTION · EXOPLANET CURIOSITY · DEEP SPACE</sub>
+<sub>OBSERVATIONAL ASTRONOMY · EXOPLANET SCIENCE · ORBITAL MECHANICS</sub>
 
 </div>
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/cosmic-orbit.svg" alt="Animated orbital illustration" />
+<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/cosmic-orbit.svg" alt="Minimal orbital signature with animated planet" />
 
 <sub>Thanks for visiting. Keep looking up.</sub>
 
