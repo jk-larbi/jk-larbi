@@ -4,9 +4,7 @@
 
 <br/>
 
-<a href="https://readme-typing-svg.demolab.com">
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=16&duration=4200&pause=1500&color=D6A24A&cursor=FDE68A&cursor=▋&center=true&vCenter=true&width=700&lines=Designing+with+purpose.;Building+with+curiosity.;Making+interfaces+feel+simple.;Learning+something+new+with+every+commit." alt="Animated tagline" />
-</a>
+<p><strong>DESIGN · CODE · COSMIC CURIOSITY</strong></p>
 
 <p>
 <a href="https://github.com/jk-larbi?tab=repositories">PORTFOLIO / REPOSITORIES</a>
@@ -61,25 +59,12 @@ Ghana
 
 ## 02 / Tools on my desk
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=figma,ps,ai" alt="Design tools" />
-
-<sub>DESIGN & VISUAL COMMUNICATION</sub>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,java,flutter" alt="Development tools" />
-
-<sub>WEB & APPLICATION DEVELOPMENT</sub>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux" alt="Workflow tools" />
-
-<sub>TOOLS & SYSTEMS</sub>
-
-</div>
+| FOCUS | TOOLS & SKILLS |
+|:--|:--|
+| **Design** | Figma · Photoshop · Illustrator · UI/UX · Prototyping |
+| **Development** | HTML · CSS · JavaScript · TypeScript · React · Java · Flutter |
+| **Workflow** | Git · GitHub · VS Code · Linux |
+| **Growing in** | Cybersecurity · Networking · Systems |
 
 ---
 
@@ -164,20 +149,11 @@ A portfolio website project focused on presenting work and personal identity thr
 
 ## 05 / Activity log
 
-<div align="center">
+I prefer keeping this section reliable rather than depending on third-party statistic image services that may fail to load.
 
-<a href="https://github.com/jk-larbi">
-<img src="https://github-readme-stats.vercel.app/api?username=jk-larbi&show_icons=true&hide_border=true&theme=graywhite&title_color=92400E&icon_color=D97706&text_color=292524&rank_icon=github" height="165" alt="GitHub statistics" />
-</a>
-<a href="https://github.com/jk-larbi">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jk-larbi&layout=compact&hide_border=true&theme=graywhite&title_color=92400E&text_color=292524&langs_count=7" height="165" alt="Most used languages" />
-</a>
-
-<br/>
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=jk-larbi&bg_color=ffffff&color=44403c&line=d97706&point=92400e&area=true&hide_border=true" alt="Contribution activity graph" />
-
-</div>
+- [View my contribution activity](https://github.com/jk-larbi?tab=overview)
+- [Explore my repositories](https://github.com/jk-larbi?tab=repositories)
+- [See my contribution history](https://github.com/jk-larbi?tab=overview#contributions-calendar)
 
 ## 06 / The direction
 
@@ -185,10 +161,22 @@ I'm working towards becoming a versatile technology professional — someone who
 
 The long-term interest is where **design, engineering and security** meet.
 
+## 07 / Beyond the screen — astronomy
+
+I'm fascinated by astronomy: the scale of the universe, distant worlds, stars and the science behind what we observe. I enjoy exploring space missions and discoveries alongside my technology interests.
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:292524,100:78350F&height=100&section=footer&text=MAKE%20IT%20USEFUL.%20MAKE%20IT%20THOUGHTFUL.&fontSize=17&fontColor=FEF3C7&animation=fadeIn" width="100%" alt="Make it useful. Make it thoughtful." />
+<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/cosmic-orbit.svg" alt="Animated orbital paths and planets" />
 
-<sub>Thanks for visiting. Have a look around.</sub>
+<sub>ORBITAL MOTION · EXOPLANET CURIOSITY · DEEP SPACE</sub>
+
+</div>
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/cosmic-orbit.svg" alt="Animated orbital illustration" />
+
+<sub>Thanks for visiting. Keep looking up.</sub>
 
 </div>
