@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/profile-motion.svg" alt="Animated editorial hero — Joshua Kofi Larbi" />
+<img width="100%" src="./assets/profile-motion.svg" alt="Animated editorial hero — Joshua Kofi Larbi" />
 
 <br/>
 
@@ -167,7 +167,7 @@ I’m fascinated by observational astronomy: how we study stars, map distant wor
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/astronomy-observatory.svg" alt="Animated orbital system and exoplanet transit light curve" />
+<img width="100%" src="./assets/astronomy-observatory.svg" alt="Animated orbital system and exoplanet transit light curve" />
 
 <sub>OBSERVATIONAL ASTRONOMY · EXOPLANET SCIENCE · ORBITAL MECHANICS</sub>
 
@@ -175,7 +175,7 @@ I’m fascinated by observational astronomy: how we study stars, map distant wor
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/cosmic-orbit.svg" alt="Minimal orbital signature with animated planet" />
+<img width="100%" src="./assets/cosmic-orbit.svg" alt="Minimal orbital signature with animated planet" />
 
 <sub>Thanks for visiting. Keep looking up.</sub>
 
