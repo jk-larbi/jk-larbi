@@ -24,11 +24,32 @@ Away from the screen, I'm drawn to astronomy — especially exoplanets, orbital 
 
 ---
 
-## 02 — What I work with
+## 02 — Tools & technologies
+
+<div align="center">
+
+**DESIGN & CREATIVE**
+
+<img src="https://skillicons.dev/icons?i=figma,ps,ai" alt="Figma, Photoshop and Illustrator" />
+
+<br/>
+
+**DEVELOPMENT**
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,java,flutter" alt="HTML, CSS, JavaScript, TypeScript, React, Java and Flutter" />
+
+<br/>
+
+**TOOLS & SYSTEMS**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux" alt="Git, GitHub, VS Code and Linux" />
+
+</div>
 
 | AREA | TOOLS & PRACTICE |
 |:--|:--|
-| **Product & interface design** | Figma · UI/UX · Wireframing · Prototyping · Graphic design |
+| **Product & interface design** | Figma · UI/UX · Wireframing · Prototyping |
+| **Graphic design** | Adobe Photoshop · Adobe Illustrator |
 | **Web development** | HTML · CSS · JavaScript · TypeScript · React |
 | **Programming & mobile** | Java · Flutter |
 | **Tools & systems** | Git · GitHub · VS Code · Linux |
