@@ -1,11 +1,11 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=210&color=0:171717,60:262626,100:78350F&text=JOSHUA%20KOFI%20LARBI&fontSize=40&fontColor=FAFAF9&fontAlignY=42&desc=CREATIVE%20THINKER%20%2F%2F%20TECH%20BUILDER&descSize=14&descAlignY=63&descColor=FCD34D&animation=fadeIn" alt="Joshua Kofi Larbi — creative technologist" />
+<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/profile-motion.svg" alt="Animated editorial hero — Joshua Kofi Larbi" />
 
 <br/>
 
 <a href="https://readme-typing-svg.demolab.com">
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=16&duration=3000&pause=1100&color=D97706&center=true&vCenter=true&width=700&lines=Designing+with+purpose.;Building+with+curiosity.;Making+interfaces+feel+simple.;Learning+something+new+with+every+commit." alt="Animated tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=16&duration=4200&pause=1500&color=D6A24A&cursor=FDE68A&cursor=▋&center=true&vCenter=true&width=700&lines=Designing+with+purpose.;Building+with+curiosity.;Making+interfaces+feel+simple.;Learning+something+new+with+every+commit." alt="Animated tagline" />
 </a>
 
 <p>
