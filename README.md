@@ -163,11 +163,11 @@ The long-term interest is where **design, engineering and security** meet.
 
 ## 07 / Beyond the screen — astronomy
 
-I'm fascinated by astronomy: the scale of the universe, distant worlds, stars and the science behind what we observe. I enjoy exploring space missions and discoveries alongside my technology interests.
+I’m fascinated by observational astronomy: how we study stars, map distant worlds and turn faint signals into discoveries. Exoplanets, orbital mechanics and space-mission data are especially interesting to me — a reminder that good design and good science both begin with curiosity.
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/cosmic-orbit.svg" alt="Animated orbital paths and planets" />
+<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/astronomy-observatory.svg" alt="Animated orbital system and exoplanet transit light curve" />
 
 <sub>ORBITAL MOTION · EXOPLANET CURIOSITY · DEEP SPACE</sub>
 
