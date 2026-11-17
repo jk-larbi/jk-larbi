@@ -76,7 +76,13 @@ Away from the screen, I'm drawn to astronomy — especially exoplanets, orbital 
 
 ## 04 — Collaborations
 
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/jk-larbi/jk-larbi/main/assets/black-star-orbit-achievement.svg?v=1" alt="Animated Black Star Orbit feature banner celebrating my UI Lead contribution to the NASA Space Apps Challenge 2026 team project" />
+
 <sub>CONTRIBUTIONS & TEAM ROLES — THESE ARE NOT PROJECT OWNERSHIPS</sub>
+
+</div>
 
 **[ScheDORA](https://github.com/natt-pb/ScheDORA)**  
 **UI Lead / UI Designer** — led UI work and contributed to the visual identity and JavaFX interface, including dashboard, login, navigation, timetable, booking and administration screens.
