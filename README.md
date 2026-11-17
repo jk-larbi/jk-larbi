@@ -81,8 +81,8 @@ Away from the screen, I'm drawn to astronomy — especially exoplanets, orbital 
 **[ScheDORA](https://github.com/natt-pb/ScheDORA)**  
 **UI Lead / UI Designer** — led UI work and contributed to the visual identity and JavaFX interface, including dashboard, login, navigation, timetable, booking and administration screens.
 
-**[Cosmic Frontier](https://github.com/NeonTechno/Cosmic-Frontier)**  
-**UI / Front-end contributor** — contributed to mission-control interface refinement, typography, branding, browser icon cleanup and the SPHEREx editorial hero. [View my pull requests](https://github.com/NeonTechno/Cosmic-Frontier/pulls?q=is%3Apr+author%3Ajk-larbi).
+**[Black Star Orbit — The Infrared Sky Time Machine](https://github.com/NeonTechno/Cosmic-Frontier)**  
+**UI Lead / UI Designer · NASA Space Apps Challenge 2026 team project** — designed the platform's refreshed overall look and visual direction, including the splash screen and the application's interface screens. Led the visual presentation, layouts, styling and cohesive user experience. [View my contributions](https://github.com/NeonTechno/Cosmic-Frontier/pulls?q=is%3Apr+author%3Ajk-larbi) · [Explore the live demo](https://cosmic-frontier-spherex-demo.onrender.com/).
 
 **[Compiler Group 22](https://github.com/Dandyloo/COMPILER_GROUP_TWENTY_TWO)**  
 **Parser contributor** — contributed to the arithmetic expression parser. [Merged PR #23](https://github.com/Dandyloo/COMPILER_GROUP_TWENTY_TWO/pull/23).
